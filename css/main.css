@@ -1,0 +1,361 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+body {
+  font-size: 13px;
+  font-family: "lato", sans-serif;
+}
+
+.body-bg {
+  height: 99vh;
+  background-image: url("../img/artbg3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-change {
+  font-size: 20px;
+}
+
+.collapse ul li a {
+  font-size: 17px;
+}
+
+.nav-content {
+  border: 3px solid #ec5242;
+  color: #ec5242;
+}
+
+.line-bellow {
+  width: 2rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.ranking-section {
+  background-color: rgba(236, 236, 236);
+}
+
+.cont-nav {
+  width: 2rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.section-div-nav {
+  background-color: white;
+}
+
+.title-h4-part {
+  color: rgb(54, 54, 54);
+}
+
+.line-black {
+  width: 2rem;
+  height: 3px;
+  background-color: rgb(54, 54, 54);
+}
+
+footer {
+  background-color: rgba(236, 236, 236);
+  margin-top: 3rem;
+}
+
+.footer-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.footer-params {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.title {
+  position: absolute;
+  z-index: 7;
+  left: 7rem;
+  margin-top: 7rem;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+}
+
+.descruption p {
+  color: black;
+  font-size: 17px;
+}
+
+.descruption {
+  width: 58%;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #e7e7e7;
+  border-radius: 10px;
+}
+
+.title h4 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  font-family: "lato", sans-serif;
+  color: #ec5242;
+}
+
+.title h1 {
+  font-size: 6rem;
+  font-family: 'cocogoose', sans-serif;
+  background-image: url("../img/artbg.jpg");
+  color: white;
+  background-size: cover;
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title h3 {
+  color: white;
+}
+
+.prod-year h3 {
+  margin-top: 3rem;
+  font-family: 'cocogoose', sans-serif;
+}
+
+.prod-year p {
+  color: rgb(211, 211, 211);
+}
+
+.progra-section div h4 {
+  color: #ec5242;
+  font-weight: bold;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+#background-video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  object-fit: fill;
+  width: 200vh;
+}
+
+.navbar-brand img {
+  width: 11rem;
+}
+
+.bgp-light {
+  background-color: white !important;
+  z-index: 15;
+}
+
+.programs-class {
+  background-image: url("../img/blackbggg.jpg");
+  padding: 3rem 10px;
+}
+
+.progra-section div img {
+  width: 50%;
+}
+
+.ptners-logo:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.progra-section {
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.progra-section:hover {
+  background-color: rgb(46, 46, 46);
+  border: 1px solid white;
+}
+
+.full-divcontainer {
+  width: 100%;
+}
+
+.img-games {
+  max-width: 30vh !important;
+}
+
+.partners-section {
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .text-speakers h4 {
+    font-size: 10px;
+  }
+
+  .progra-section div h4 {
+    font-size: 10px;
+  }
+
+  .progra-section p {
+    font-size: 10px;
+  }
+
+  .descruption p {
+    font-size: 11px;
+  }
+
+  .prod-year h3 {
+    margin-top: 2rem;
+    font-family: 'cocogoose', sans-serif;
+  }
+
+  .section-project {
+    padding: 1px !important;
+  }
+
+  .speakers-section img {
+    width: 10rem !important;
+    height: 12rem !important;
+  }
+
+  .text-speakers img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-speakers span {
+    font-size: 10px;
+    font-style: normal !important;
+  }
+
+  .text-speakers p {
+    font-size: 10px;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .title h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    left: 0;
+    padding: 30px;
+  }
+
+  .body-bg {
+    height: 83vh;
+  }
+
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .descruption p {
+    font-size: 12px;
+  }
+
+  .title h4 {
+    font-size: 31px;
+  }
+
+  .prod-year h3 {
+    margin-top: 2rem;
+    font-size: 20px;
+  }
+
+  .descruption {
+    width: 100%;
+  }
+
+  .logo-container {
+    display: none;
+  }
+
+  .progra-section {
+    display: flex;
+    padding: 10px;
+  }
+
+  .progra-section p {
+    text-align: left;
+  }
+
+  .partners-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partners-section div img {
+    width: 10rem !important;
+  }
+
+  .programs-container {
+    margin: 20px !important;
+  }
+
+  .params {
+    padding: 20px;
+  }
+
+  .img-section {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 570px) {
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .title h4 {
+    font-size: 21px;
+  }
+
+  .descruption p {
+    font-size: 11px;
+  }
+
+  .prod-year h3 {
+    margin-top: 2rem;
+    font-size: 17px;
+  }
+
+  .text-comment {
+    width: auto;
+  }
+}
+
+@media (max-width: 570px) {
+  .title h1 {
+    font-size: 1rem;
+  }
+
+  .title h4 {
+    font-size: 16px;
+  }
+
+  .descruption p {
+    font-size: 7px;
+  }
+
+  .prod-year h3 {
+    margin-top: 2rem;
+    font-size: 7px;
+  }
+
+  .prod-year p {
+    font-size: 13px;
+  }
+}
