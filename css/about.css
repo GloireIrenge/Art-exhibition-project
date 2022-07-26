@@ -1,0 +1,149 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+.logo-container {
+  width: 11rem;
+}
+
+.text-title {
+  font-family: 'cocogoose', sans-serif;
+  color: #ec5242;
+  font-size: 3rem;
+  padding-top: 5rem;
+  width: 40%;
+}
+
+.navbar-change-style {
+  font-size: 20px;
+}
+
+.log-button {
+  border: 3px solid #ec5242;
+  color: #ec5242;
+}
+
+.header-container {
+  background-image: url("../img/main.png");
+}
+
+.line-color {
+  width: 2rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.text-comment {
+  width: 50rem;
+  background-color: white;
+}
+
+.params-exp {
+  width: 50rem;
+}
+
+.line-empty {
+  height: 30px;
+}
+
+.card-det {
+  font-family: 'lato', sans-serif;
+}
+
+.line-height {
+  width: 2rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.text-card {
+  width: 50%;
+}
+
+.logo-about img {
+  width: 25rem;
+}
+
+.rank-section-about {
+  border-top: 1px solid rgb(155, 155, 155);
+}
+
+.title-rank {
+  font-family: 'lato', sans-serif;
+}
+
+.testymonies2 {
+  font-family: 'lato', sans-serif;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: rgb(39, 39, 39);
+}
+
+.footer-logo {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.rank-desc {
+  width: 50%;
+}
+
+.footer-text-comment {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sm-description {
+  margin: 5rem auto;
+}
+
+.section-product {
+  margin: 5rem auto;
+}
+
+.test01 {
+  width: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3.5rem;
+}
+
+.test01 h3 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    display: none;
+  }
+
+  .text-comment {
+    width: auto;
+  }
+
+  .params-exp {
+    width: auto;
+  }
+
+  .text-title {
+    width: auto;
+  }
+
+  .rank-desc {
+    width: auto;
+    padding: 0 34px;
+  }
+
+  .text-card {
+    width: auto;
+    padding: 0 20px;
+  }
+}
