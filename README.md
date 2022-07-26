@@ -1,15 +1,15 @@
-# Art-exhibition-project
+# <a href="https://gloireirenge.github.io/Art-exhibition-project/">Art-exhibition-project</a> :art:
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Capastone Project for the Html,CSS,Javascipt module
+## Capstone Project for the Html,CSS,Javascipt module
 
-This project is to help demostrating or put into practice what we have learned at Microverse for the time we spent at Microverse program until now. Please have a look at my Live site and give me feedback Live Demo. 🙂
+This project is to help demostrating or put into practice what we have learned at Microverse for the time we spent at Microverse program until now.
 
-- Destop Version
+## Destop Version
 
 ![image](https://user-images.githubusercontent.com/37586807/181089710-34e1d11d-b2ee-405d-bd83-37e87e1abc4f.png) 
 
-- Mobile Version
+## Mobile Version
 
 ![image](https://user-images.githubusercontent.com/37586807/181090229-60598271-45ca-42fb-9f46-f8eedc13cd3a.png)
 
@@ -21,11 +21,11 @@ This project is to help demostrating or put into practice what we have learned a
 
 ## Live Demo
 
-[Live Demo Link](https://regiss05.github.io/game_ranking/)
+[Live Demo Link](https://gloireirenge.github.io/Art-exhibition-project/)
 
 
 ## Getting Started
-git clone https://github.com/Regiss05/game_ranking.git
+git clone https://gloireirenge.github.io/Art-exhibition-project.git
 
 
 To get a local copy up and running follow these simple example steps.
@@ -50,10 +50,10 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 ## Authors
 
-👤 **Regiss Mukubiza**
+👤 **Glory Mufungizi**
 
-- GitHub: [@githubhandle](https://github.com/Regiss05)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/regiss-mukubiza-1bab841b3/)
+:diamond_shape_with_a_dot_inside: GitHub: [@GloireIrenge](https://github.com/GloireIrenge)
+:diamond_shape_with_a_dot_inside: LinkedIn: [Glory Mufungizi](https://www.linkedin.com/in/glory-mufungizi-678940202/)
 
 
 ## Show your support
