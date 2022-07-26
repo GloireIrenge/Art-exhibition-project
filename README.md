@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 The basic requirements for building the executable are:
 
 - A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
-- VSCode or any other equivalent code editor
+- VSCode or any other equivalent code editor :atom:
 - Node Package Manager (For running, debuging, or installing dependancies to be used)
 
 ### Install
@@ -56,9 +56,21 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 :diamond_shape_with_a_dot_inside: LinkedIn: [Glory Mufungizi](https://www.linkedin.com/in/glory-mufungizi-678940202/)
 
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️⭐️⭐️⭐️⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thank you Mentor for your contrubution in this project
+- Thanks you Microverse team for you to make it done
+
 
 
 ## 📝 License
