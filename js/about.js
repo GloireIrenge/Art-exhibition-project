@@ -2,14 +2,14 @@ const articles = [
   {
     id: 1,
     image: './img/art2.jpg',
-    name: '2013',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    name: '2019',
+    description: 'Art exhibit in Rwanda 2019',
   },
   {
     id: 2,
     image: './img/artbgbb.jpg',
-    name: '2013',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    name: '2018',
+    description: 'Art exhibit in Congo 2018',
   },
 ];
 
@@ -26,7 +26,7 @@ const renderArtical = (article) => {
   container.setAttribute('data-id', id);
 
   container.innerHTML = `
-  <div data-id class="test01 fts col-md-6 m-3" style="background: linear-gradient(0deg, rgba(255, 23, 23, 0.6), rgba(255, 0, 0, 0.589)), url('${image}');">
+  <div data-id class="test01 fts col-md-6 m-3" style="background: linear-gradient(0deg, rgb(255 23 23 / 63%), rgb(255 0 0 / 27%)), url('${image}');">
     <h3 style="font-family: 'cocogoose', sans-serif;">${name}</h3>
     <p style="color: white;">${description}</p>
   </div>
