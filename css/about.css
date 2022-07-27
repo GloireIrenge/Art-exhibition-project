@@ -1,7 +1,13 @@
 @import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.cdnfonts.com/css/Lato");
-
+.Partners{
+  background-color: #414146;
+  padding: 5%;
+}
 .logo-container {
+  width: 11rem;
+}
+.ptners-logo{
   width: 11rem;
 }
 
@@ -76,8 +82,13 @@
   overflow-x: hidden;
 }
 
+.title-h4-part {
+  color: rgb(143, 134, 134);
+  background-color: #414146;
+}
+
 footer {
-  background-color: rgb(39, 39, 39);
+  background-color: #fff;
 }
 
 .footer-logo {
@@ -94,6 +105,10 @@ footer {
   font-weight: bold;
 }
 
+.footer-title {
+  font-size: 40px;
+  font-weight: 900;
+}
 .sm-description {
   margin: 5rem auto;
 }
@@ -123,6 +138,10 @@ footer {
 @media (max-width: 768px) {
   .logo-container {
     display: none;
+  }
+
+  .ptners-logo{
+    width: 7rem;
   }
 
   .text-comment {
