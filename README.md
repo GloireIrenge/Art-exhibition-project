@@ -79,9 +79,7 @@ This project is [MIT](./MIT.md) licensed.
 
 
 
-
-
-
-This is a website on which art objects meet an online audience
+## Credits
+This project is made possible by the community surrounding it and especially  [Cindy Shin](https://www.behance.net/adagio07)  the author of [the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 
