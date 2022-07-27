@@ -1,5 +1,21 @@
 @import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.cdnfonts.com/css/Lato");
+.topNav{
+  background-color: rgba(21, 19, 19, 0.85);
+  height: 20px;
+}
+.navbar-top {
+  background: #4D5061;
+  border-bottom: 4px solid #60B078;
+  color: #FFF;
+}
+.inside{
+  color: #ec5242;
+}
+.Partners{
+  background-color: #414146;
+  padding: 5%;
+}
 
 body {
   font-size: 13px;
@@ -47,18 +63,18 @@ body {
 }
 
 .title-h4-part {
-  color: rgb(54, 54, 54);
+  color: rgb(143, 134, 134);
+  background-color: #414146;
 }
 
 .line-black {
   width: 2rem;
   height: 3px;
-  background-color: rgb(54, 54, 54);
+  background-color: #61616a;
 }
 
 footer {
   background-color: rgba(236, 236, 236);
-  margin-top: 3rem;
 }
 
 .footer-title {
@@ -196,6 +212,9 @@ footer {
   width: 100%;
 }
 
+.partner-footer{
+  visibility: visible;
+}
 @media (min-width: 768px) and (max-width: 992px) {
   .text-speakers h4 {
     font-size: 10px;
@@ -245,6 +264,10 @@ footer {
 
   .title h1 {
     font-size: 5rem;
+  }
+
+  .partner-footer{
+    visibility: visible;
   }
 }
 
@@ -312,6 +335,10 @@ footer {
   .img-section {
     padding-top: 20px;
   }
+
+  .partner-footer{
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 570px) {
@@ -335,6 +362,9 @@ footer {
   .text-comment {
     width: auto;
   }
+  .partner-footer{
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 570px) {
@@ -352,10 +382,15 @@ footer {
 
   .prod-year h3 {
     margin-top: 2rem;
-    font-size: 7px;
+    font-size: 7px;   
   }
 
   .prod-year p {
     font-size: 13px;
+  }
+
+   .partner-footer{
+    visibility: hidden;
+
   }
 }
