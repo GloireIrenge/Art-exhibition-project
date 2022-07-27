@@ -1,13 +1,16 @@
 @import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.cdnfonts.com/css/Lato");
-.Partners{
+
+.Partners {
   background-color: #414146;
   padding: 5%;
 }
+
 .logo-container {
   width: 11rem;
 }
-.ptners-logo{
+
+.ptners-logo {
   width: 11rem;
 }
 
@@ -109,6 +112,7 @@ footer {
   font-size: 40px;
   font-weight: 900;
 }
+
 .sm-description {
   margin: 5rem auto;
 }
@@ -140,7 +144,7 @@ footer {
     display: none;
   }
 
-  .ptners-logo{
+  .ptners-logo {
     width: 7rem;
   }
 
