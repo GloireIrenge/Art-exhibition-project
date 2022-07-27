@@ -205,7 +205,8 @@ footer {
 }
 
 .img-games {
-  max-width: 30vh !important;
+  max-width: 20vh !important;
+  padding-top:30%;
 }
 
 .partners-section {
