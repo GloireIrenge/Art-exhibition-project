@@ -1,16 +1,15 @@
 @import url("https://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.cdnfonts.com/css/Lato");
 
-.topNav {
-  background-color: rgba(21, 19, 19, 0.85);
-  height: 20px;
+.fixed-top-sm {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 200px;
 }
 
-.navbar-top {
-  background: #4d5061;
-  border-bottom: 4px solid #60b078;
-  color: #fff;
-}
 
 .inside {
   color: #ec5242;
