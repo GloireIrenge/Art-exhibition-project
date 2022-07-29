@@ -20,6 +20,10 @@ This project is to help demostrating or put into practice what we have learned a
 - Bootstrap
 - weblint, eslint, hint
 
+## Demo video
+
+[Watch video presentation](https://drive.google.com/file/d/1k78NKSefMXErNzXZnusDKf7H7UR_ceIR/view?usp=sharing)
+
 ## Live Demo
 
 [Live Demo Link](https://gloireirenge.github.io/Art-exhibition-project/)
