@@ -46,14 +46,14 @@ btn.appendChild(span2);
 const Artists = [
   {
     idG: 1,
-    imageG: './img/artist1.jpg',
+    imageG: './img/artist3.jpg',
     nameG: 'Ntoya Jeremie',
     titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
     descriptionG: 'Ntoya Jeremie was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.[3] While his fame initially rested on his achievements as a painter, he also became known for his notebooks, in which he made drawings and notes on a variety of subjects, including anatomy, astronomy, botany, cartography, painting, and paleontology. ',
   },
   {
     idG: 2,
-    imageG: './img/artis2.jpg',
+    imageG: './img/artist3.jpg',
     nameG: 'Jean fontaine',
     titleG: '',
     descriptionG: 'Jean fontaine is widely regarded to have been a genius who epitomized the Renaissance humanist ideal,and his collective works compose a contribution to later generations of artists matched only by that of his younger contemporary.',
@@ -67,21 +67,21 @@ const Artists = [
   },
   {
     idG: 4,
-    imageG: './img/artist4.jpeg',
+    imageG: './img/artist3.jpg',
     nameG: 'Mufungizi Ansima',
     titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
     descriptionG: 'He began his career in the city, but then spent much time in the service of Ludovico Sforza in Milan. Later, he worked in Florence and Milan again, as well as briefly in Rome, all while attracting a large following of imitators and students',
   },
   {
     idG: 5,
-    imageG: './img/artis2.jpg',
+    imageG: './img/artist3.jpg',
     nameG: 'Mupenzi Benito',
     titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
     descriptionG: 'Upon the invitation of Francis I, he spent his last three years in France, where he died in 1519. Since his death, there has not been a time where his achievements, diverse interests, personal life, and empirical thinking have failed to incite interest and admiration,[3][4] making him a frequent namesake and subject in culture.',
   },
   {
     idG: 6,
-    imageG: './img/artist1.jpg',
+    imageG: './img/artist3.jpg',
     nameG: 'Glory Legrand',
     titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
     descriptionG: 'Glory Legrand is identified as one of the greatest painters in the history of art and is often credited as the founder of the High Renaissance',
