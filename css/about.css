@@ -267,13 +267,18 @@ body main .about-container .about-body {
 body main footer {
   flex-direction: row;
   width: 100%;
+  color:#dddfde;
+  background-color: #2e2e2e;
+  display: block;
+  padding-left: 30%;
+  font-family: 'Lato';
 }
 
 body main footer .footer-container {
   column-gap: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-bottom: 30px;
   margin-top: 30px;
   width: 100%;
@@ -398,6 +403,7 @@ body main .partners {
   flex-direction: column;
   height: 15rem;
   width: 100%;
+  display: none;
 }
 
 body main .partners h2 {
@@ -849,4 +855,25 @@ body header .nav-container .navbar .logo-header {
     width: auto;
     padding: 0 20px;
   }
+  body main .partners {
+    background-color: rgb(39 42 49 / 90%);
+    flex-direction: column;
+    height: 15rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  body main footer {
+    flex-direction: row;
+    width: 100%;
+    color: #1c1a1adb;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+body main .partners-logo{
+  display: block;
+}
 }
