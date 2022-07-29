@@ -81,7 +81,7 @@ body header .nav-container .social-nav {
 }
 
 .hide {
-  visibility: visible;
+  display: block;
 }
 
 body main footer .footer-container img {
@@ -869,7 +869,7 @@ body main .partners-logo {
   }
 
   .hide {
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -901,7 +901,7 @@ body main .partners-logo {
   }
 
   .hide {
-    visibility: hidden;
+    display:none;
   }
 }
 
@@ -912,7 +912,7 @@ body main .partners-logo {
   }
 
   .hide {
-    visibility: visible;
+    display:none;
   }
 }
 
@@ -947,7 +947,7 @@ body main footer .footer-container {
 
 @media screen and (min-width: 768px) {
   .hide {
-    visibility: visible;
+    display: block;
   }
 
   body main footer .footer-container {
