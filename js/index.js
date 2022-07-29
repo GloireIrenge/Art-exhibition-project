@@ -1,35 +1,47 @@
-const programs = [
-  {
-    id: 1,
-    picture: './img/bookart.jpg',
-    name: 'LECTURER',
-    description: 'A modern and contemporary art collection with local presence in “Villa Lakeside”, affiliated locations and Depot Boijmans van Beuningen.',
-  },
-  {
-    id: 2,
-    picture: './img/art1.jpg',
-    name: 'Exhibition',
-    description: 'A modern and contemporary art collection with local presence in “Villa Lakeside”, affiliated locations and Depot Boijmans van Beuningen.',
-  },
-  {
-    id: 3,
-    picture: './img/artevent.png',
-    name: 'Art Forum',
-    description: 'A modern and contemporary art collection with local presence in “Villa Lakeside”, affiliated locations and Depot Boijmans van Beuningen.',
-  },
-  {
-    id: 4,
-    picture: './img/art9.jpg',
-    name: 'Art Workshop',
-    description: 'A modern and contemporary art collection with local presence in “Villa Lakeside”, affiliated locations and Depot Boijmans van Beuningen..',
-  },
-  {
-    id: 5,
-    picture: './img/art3.jpg',
-    name: 'Art Teaching',
-    description: 'A modern and contemporary art collection with local presence in “Villa Lakeside”, affiliated locations and Depot Boijmans van Beuningen.',
-  },
-];
+const closeBtn = document.querySelector('.close');
+const hambuger = document.querySelector('.menuIcon');
+const btnContainer = document.querySelector('.mobile');
+const menuItemList = document.querySelector('.menu-list');
+const item = document.querySelectorAll('.navbar-menu-item');
+
+function toggleHamburger() {
+  if (menuItemList.classList.contains('showMenu')) {
+    menuItemList.classList.remove('showMenu');
+    closeBtn.style.display = 'none';
+    hambuger.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  } else {
+    menuItemList.classList.add('showMenu');
+    closeBtn.style.display = 'block';
+    hambuger.style.display = 'none';
+  }
+}
+
+btnContainer.addEventListener('click', toggleHamburger);
+
+item.forEach((item) => {
+  item.addEventListener('click', toggleHamburger);
+});
+
+const container = document.getElementById('container');
+
+const featuredSection = document.createElement('section');
+featuredSection.classList.add('featured');
+
+container.appendChild(featuredSection);
+container.insertBefore(featuredSection, container.children[1]);
+
+const btn = document.createElement('button');
+const span = document.createElement('span');
+const span2 = document.createElement('span');
+const icon = document.createElement('i');
+
+span2.classList.add('chevron');
+icon.classList.add('fas', 'fa-chevron-down');
+span2.appendChild(icon);
+
+btn.appendChild(span);
+btn.appendChild(span2);
 
 const Artists = [
   {
@@ -76,43 +88,7 @@ const Artists = [
   },
 ];
 
-const renderProgram = (program) => {
-  const {
-    id,
-    picture,
-    name,
-    description,
-  } = program;
-
-  const container = document.createElement('div');
-  container.classList.add('section-project', 'col-md-2', 'text-light', 'm-1', 'p-3', 'text-center', 'progra-section');
-  container.setAttribute('data-id', id);
-
-  container.innerHTML = `
-    <div class="pic-lect mt">
-        <img class="img-section" src="${picture}" alt="">
-        <h4 class="">${name}</h4>
-    </div>
-    <p class="params">${description}</p>
-  `;
-
-  return container;
-};
-
-const renderPrograms = () => {
-  const container = document.querySelector('.main-program-container');
-  const containerDisplay = document.createElement('div');
-  containerDisplay.classList.add('row', 'd-flex', 'justify-content-center', 'full-divcontainer');
-
-  programs.forEach((program) => {
-    containerDisplay.appendChild(renderProgram(program));
-    container.appendChild(containerDisplay);
-  });
-};
-
-renderPrograms();
-
-const renderGame = (arts) => {
+const renderArtist = (arts) => {
   const {
     idG,
     imageG,
@@ -127,9 +103,9 @@ const renderGame = (arts) => {
 
   container.innerHTML = `
   <div col-md-6>
-  <img class="m-2 img-games"
+  <img class="img-rounded"
     src="${imageG}"
-    alt="profile picture">
+    alt="profile picture" height="100" width="100">
   </div>
   <div class="text-speakers col-md-6 m-2">
     <h4 class="pt-5" style="color:black; font-weight:900">${nameG}</h4>
@@ -139,15 +115,15 @@ const renderGame = (arts) => {
   return container;
 };
 
-const renderGames = () => {
+const renderArtists = () => {
   const container = document.querySelector('.ranking-section');
   const containerDiv = document.createElement('div');
   containerDiv.classList.add('row', 'd-flex', 'justify-content-center');
 
   Artists.forEach((arts) => {
-    containerDiv.appendChild(renderGame(arts));
+    containerDiv.appendChild(renderArtist(arts));
     container.appendChild(containerDiv);
   });
 };
 
-renderGames();
+renderArtists();
